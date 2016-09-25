@@ -27,6 +27,9 @@ h1 {
 {
   width: 100%;
 }
+.mainContent {
+  background-color: #fff;
+}
 .subTable
 {
   background-color: #e9eff1;
