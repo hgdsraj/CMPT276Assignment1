@@ -13,3 +13,1652 @@
   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
   [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:06:44 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 1473ms (Views: 1464.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:07:03 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 54ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/style.css" for 127.0.0.1 at 2016-09-25 14:07:03 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/style.css"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.1.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.1.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (20.1ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (26.4ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (77.4ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+Started GET "/calculator.js" for 127.0.0.1 at 2016-09-25 14:07:03 -0700
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  
+ActionController::RoutingError (No route matches [GET] "/calculator.js"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.1.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.1.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.1ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.6ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (71.8ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.0ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (32.4ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (115.6ms)
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:08:33 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 176ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: [stdin]:1:1: reserved word 'function'):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__4580778211013425678_70111281625000'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (31.9ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.7ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (26.0ms)
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:09:55 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (20.4ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( home.css )` to `config/initializers/assets.rb` and restart your server):
+     5:     <meta content="width=device-width" name="viewport">
+     6: 
+     7:     <title>Raj Mahey's Personal Website</title>
+     8:     <%= stylesheet_link_tag    'home', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'home', 'data-turbolinks-track': 'reload' %>
+    10:     <script src="calculator.js" type="text/javascript" async>
+    11:     </script>
+  
+app/views/home/home.html.erb:8:in `_app_views_home_home_html_erb___1999963632993896776_70111349304640'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.1ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.7ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (27.1ms)
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:10:12 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculator.js" for 127.0.0.1 at 2016-09-25 14:10:13 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/calculator.js"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.1.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.1.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.5ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.5ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (22.8ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (39.7ms)
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:10:39 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:10:43 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculator.js" for 127.0.0.1 at 2016-09-25 14:10:43 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/calculator.js"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.1.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.1.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.6ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.9ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (23.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (40.8ms)
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:11:01 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculator.js" for 127.0.0.1 at 2016-09-25 14:11:01 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/calculator.js"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.1.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.1.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered collection of /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.5ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.9ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.0ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (31.1ms)
+Started GET "/calculator.js" for 127.0.0.1 at 2016-09-25 14:11:11 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/calculator.js"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.1.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.1.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered collection of /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (2.0ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.7ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.8ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (30.9ms)
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:13:02 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/raj/OneDrive/CMPT/CMPT276/Assignments/1/app/views/layouts/application.html.erb:8: syntax error, unexpected ')', expecting =>
+...nks-track': 'reload', 'async' );@output_buffer.safe_append='
+...                               ^
+/home/raj/OneDrive/CMPT/CMPT276/Assignments/1/app/views/layouts/application.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+/home/raj/OneDrive/CMPT/CMPT276/Assignments/1/app/views/layouts/application.html.erb:18: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/layouts/application.html.erb:8: syntax error, unexpected ')', expecting =>
+app/views/layouts/application.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.0ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.6ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (28.1ms)
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:13:10 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/raj/OneDrive/CMPT/CMPT276/Assignments/1/app/views/layouts/application.html.erb:8: syntax error, unexpected ')'
+...turbolinks-track': 'reload',  );@output_buffer.safe_append='
+...                               ^
+/home/raj/OneDrive/CMPT/CMPT276/Assignments/1/app/views/layouts/application.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+/home/raj/OneDrive/CMPT/CMPT276/Assignments/1/app/views/layouts/application.html.erb:18: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/layouts/application.html.erb:8: syntax error, unexpected ')'
+app/views/layouts/application.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (21.8ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (34.2ms)
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:13:16 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( calculator.js )` to `config/initializers/assets.rb` and restart your server):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'calculator', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__4580778211013425678_70111287536140'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.1ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.9ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (26.4ms)
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:13:54 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( calculator.js )` to `config/initializers/assets.rb` and restart your server):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'calculator', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__4580778211013425678_47331693737500'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.4ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.7ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (27.9ms)
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:15:56 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calculator.js" for 127.0.0.1 at 2016-09-25 14:15:56 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/calculator.js"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.1.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.1.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered collection of /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.2ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.8ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.5ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (28.5ms)
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:19:01 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (9.1ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( calculator.js )` to `config/initializers/assets.rb` and restart your server):
+    3: <head>
+    4:     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    5:     <meta content="width=device-width" name="viewport">
+    6:     <%= javascript_include_tag 'calculator', 'data-turbolinks-track': 'reload' %>
+    7:     <title>Raj Mahey's Personal Website</title>
+    8:     </script>
+    9: </head>
+  
+app/views/home/home.html.erb:6:in `_app_views_home_home_html_erb___1999963632993896776_70111349187840'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.9ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.9ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.7ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (28.9ms)
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:19:59 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( calculator.js )` to `config/initializers/assets.rb` and restart your server):
+    3: <head>
+    4:     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    5:     <meta content="width=device-width" name="viewport">
+    6:     <%= javascript_include_tag 'calculator', 'data-turbolinks-track': 'reload' %>
+    7:     <title>Raj Mahey's Personal Website</title>
+    8:     </script>
+    9: </head>
+  
+app/views/home/home.html.erb:6:in `_app_views_home_home_html_erb___1999963632993896776_70111214466640'
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.6ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.5ms)
+  Rendering /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/raj/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/web-console-3.1.1/lib/web_console/templates/index.html.erb (25.7ms)
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:20:26 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (186.2ms)
+Completed 200 OK in 205ms (Views: 196.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:24:18 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:24:27 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (189.4ms)
+Completed 200 OK in 207ms (Views: 198.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:25:49 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 17ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:27:05 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:29:40 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:32:29 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 68ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:32:30 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:32:31 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 20ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:32:32 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/fonts/DINWeb.eot"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.1.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.1.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.1.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.0.1) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.4.0) lib/puma/configuration.rb:224:in `call'
+puma (3.4.0) lib/puma/server.rb:569:in `handle_request'
+puma (3.4.0) lib/puma/server.rb:406:in `process_client'
+puma (3.4.0) lib/puma/server.rb:271:in `block in run'
+puma (3.4.0) lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:35:05 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 57ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:35:06 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:35:06 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:35:07 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:35:07 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:35:31 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 81ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:35:38 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (214.3ms)
+Completed 200 OK in 235ms (Views: 225.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:36:05 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:39:33 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 61ms (Views: 59.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:40:57 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 39ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:41:13 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:47:38 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 53ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:49:34 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:49:58 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:50:15 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:50:58 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:51:27 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 44ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:51:43 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:51:52 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 41ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:52:00 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:52:15 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 46ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:53:26 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:55:30 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 14:56:07 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:03:26 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:04:30 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 30ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:04:57 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:06:25 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 40ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:06:45 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:06:46 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:07:04 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 39ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:07:15 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:07:16 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:07:17 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:07:44 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 42ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:07:54 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:08:15 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:08:25 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:08:35 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:09:05 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:09:40 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 47ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:09:55 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:10:23 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 33ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:10:25 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:10:30 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:11:51 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 42ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:11:54 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 18ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:12:00 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:13:14 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:13:36 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:15:08 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:16:14 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:16:35 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:17:05 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 41ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:17:12 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 38ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:18:09 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:19:19 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:19:36 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:19:57 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:20:00 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:20:00 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:20:01 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:20:02 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:20:02 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:20:24 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:20:59 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:24:09 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:24:23 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:24:48 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 32ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:24:50 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:25:08 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:25:14 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:25:22 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:25:31 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:26:05 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 40ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:26:51 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:27:10 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:27:39 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:33:27 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-25 15:33:53 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&weighted=Submit+Query" for 127.0.0.1 at 2016-09-25 15:33:56 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "weighted"=>"Submit Query"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&weighted=Submit+Query" for 127.0.0.1 at 2016-09-25 15:34:15 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "weighted"=>"Submit Query"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&weighted=Submit+Query" for 127.0.0.1 at 2016-09-25 15:34:20 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "weighted"=>"Submit Query"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&weighted=Submit+Query" for 127.0.0.1 at 2016-09-25 15:35:03 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "weighted"=>"Submit Query"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&weighted=Submit+Query" for 127.0.0.1 at 2016-09-25 15:35:18 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "weighted"=>"Submit Query"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&weighted=Submit+Query" for 127.0.0.1 at 2016-09-25 15:35:39 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "weighted"=>"Submit Query"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 46ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&weighted=Submit+Query" for 127.0.0.1 at 2016-09-25 15:35:44 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "weighted"=>"Submit Query"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&weighted=Submit+Query" for 127.0.0.1 at 2016-09-25 15:36:22 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "weighted"=>"Submit Query"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 56ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&weighted=Submit+Query" for 127.0.0.1 at 2016-09-25 15:36:30 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "weighted"=>"Submit Query"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 45ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&weighted=Submit+Query" for 127.0.0.1 at 2016-09-25 15:36:42 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "weighted"=>"Submit Query"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 52ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&weighted=Submit+Query" for 127.0.0.1 at 2016-09-25 15:36:49 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "weighted"=>"Submit Query"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&weighted=Submit+Query" for 127.0.0.1 at 2016-09-25 15:36:58 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "weighted"=>"Submit Query"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 41ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&weighted=Submit+Query" for 127.0.0.1 at 2016-09-25 15:37:03 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "weighted"=>"Submit Query"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&weighted=WEIGHTED" for 127.0.0.1 at 2016-09-25 15:37:14 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "weighted"=>"WEIGHTED"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:37:14 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&weighted=WEIGHTED" for 127.0.0.1 at 2016-09-25 15:37:15 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "weighted"=>"WEIGHTED"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:37:15 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:37:44 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:38:34 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 49ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:38:40 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:38:45 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 33ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:38:50 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:39:31 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 54ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:39:32 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:39:35 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:39:36 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:39:42 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:39:48 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:40:10 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:40:12 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:40:19 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:41:18 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?weight1=&num1=&den1=&weight2=&num2=&den2=&weight3=&num3=&den3=&weight4=&num4=&den4=&mean=MEAN" for 127.0.0.1 at 2016-09-25 15:41:44 -0700
+Processing by HomeController#home as HTML
+  Parameters: {"weight1"=>"", "num1"=>"", "den1"=>"", "weight2"=>"", "num2"=>"", "den2"=>"", "weight3"=>"", "num3"=>"", "den3"=>"", "weight4"=>"", "num4"=>"", "den4"=>"", "mean"=>"MEAN"}
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
