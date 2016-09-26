@@ -70,7 +70,7 @@ function calculateWeighted() {
     percentages_values[i] = numerators[i].value/denominators[i].value;
     totalGrade += percentages_values[i]*weights[i].value;
     totalWeight += Number(weights[i].value);
-    if(weights[i] <= 0)
+    if(weights[i].value <= 0)
     {
       alert("WEIGHTS MUST BE > 0 !");
       return;
