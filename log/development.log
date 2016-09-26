@@ -4007,3 +4007,10 @@ Processing by HomeController#home as HTML
 Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2016-09-25 19:19:01 -0700
+Processing by HomeController#home as HTML
+  Rendering home/home.html.erb within layouts/application
+  Rendered home/home.html.erb within layouts/application (218.5ms)
+Completed 200 OK in 235ms (Views: 227.6ms | ActiveRecord: 0.0ms)
+
+
