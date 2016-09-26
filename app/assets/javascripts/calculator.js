@@ -65,12 +65,16 @@ function calculateWeighted() {
   var percentages_values = [];
   var totalGrade = 0;
   var totalWeight = 0;
-
   for(i = 0; i < len; i++)
   {
     percentages_values[i] = numerators[i].value/denominators[i].value;
     totalGrade += percentages_values[i]*weights[i].value;
     totalWeight += Number(weights[i].value);
+    if(weights[i] <= 0)
+    {
+      alert("WEIGHTS MUST BE > 0 !");
+      return;
+    }
     percentages[i].innerHTML = ((Math.round(percentages_values[i]*100*100)) / 100).toFixed(2) + "%";
   }
 
