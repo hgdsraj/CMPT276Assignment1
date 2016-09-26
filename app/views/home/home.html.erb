@@ -14,6 +14,7 @@
     </nav>
   </header>
   <div>
+
   <table class="mainTable">
     <tr>
       <td class= "margins">
@@ -44,9 +45,8 @@
 
             Give Grades to the numeric activities:
             <br><br>
-            <form>
 
-              <table border = "1" class = "inputForm">
+              <table border = "1" class = "inputForm" name = "formTable" id = "table1">
                 <tr class="tableHead">
                   <td class>
                     Name
@@ -65,7 +65,7 @@
                   </td>
 
                 </tr>
-                <tr>
+                <tr name = "formRow">
                   <td>
                     Activity 1
                   </td>
@@ -73,75 +73,83 @@
                     A1
                   </td>
                   <td>
-                    <input type="text" name="weight">
+                    <input type="text" name="weight" value="0">
                   </td>
                   <td>
-                    <input type="text" name="num">/ <br>
-                    <input type="text" name="den">
+                    <input type="text" name="num" value="0">/ <br>
+                    <input type="text" name="den" value="0">
                   </td>
                   <td>
-                    <br>
+                    <p name = "percent"></p>
                   </td>
                 </tr>
-                <tr>
+                <tr name = "formRow">
                   <td>
                     Activity 2
                   </td>
                   <td>
-                    A1
+                    A2
                   </td>
                   <td>
-                    <input type="text" name="weight">
+                    <input type="text" name="weight" value="0">
                   </td>
                   <td>
-                    <input type="text" name="num">/ <br>
-                    <input type="text" name="den">
+                    <input type="text" name="num" value="0">/ <br>
+                    <input type="text" name="den" value="0">
                   </td>
                   <td>
-                    <br>
+                    <p name = "percent"></p>
                   </td>
                 </tr>
-                <tr>
+                <tr name = "formRow">
                   <td>
                     Activity 3
                   </td>
                   <td>
-                    A1
+                    A3
                   </td>
                   <td>
-                    <input type="text" name="weight">
+                    <input type="text" name="weight" value="0">
                   </td>
                   <td>
-                    <input type="text" name="num">/ <br>
-                    <input type="text" name="den">
+                    <input type="text" name="num" value="0">/ <br>
+                    <input type="text" name="den" value="0">
                   </td>
                   <td>
-                    <br>
+                    <p name = "percent"></p>
                   </td>
                 </tr>
-                <tr>
+                <tr name = "formRow">
                   <td>
                     Activity 4
                   </td>
                   <td>
-                    A1
+                    A4
                   </td>
                   <td>
-                    <input type="text" name="weight">
+                    <input type="text" name="weight" value="0">
                   </td>
                   <td>
-                    <input type="text" name="num">/ <br>
-                    <input type="text" name="den">
+                    <input type="text" name="num" value="0">/ <br>
+                    <input type="text" name="den" value="0">
                   </td>
                   <td>
-                    <br>
+                    <p name = "percent"></p>
                   </td>
                 </tr>
-
+                <br>
               </table>
               <h3>
-                Result
+
               </h3>
+              <div class="left">
+              <input type="button" onclick="addRow();" name="add" value="ADD ROW">
+              <input type="button" onclick="rmRow();" name="rm" value="REMOVE ROW">
+            </div> <br><br>
+            <h3>
+               Result:
+            </h3>
+
               <div class="left">
                 <p id="results">
                   <br>
@@ -149,11 +157,10 @@
               </div>
               <div class = "right">
                 <p>
-                <input type="submit" onclick="calculateWeighted();" name="weighted" value="WEIGHTED">
-                <input type="submit" onclick="calculateMean();" name="mean" value="MEAN">
+                <input type="button" onclick="calculateWeighted();" name="weighted" value="WEIGHTED">
+                <input type="button" onclick="calculateMean();" name="mean" value="MEAN">
                 </p>
               </div>
-            </form>
           </div>
           <br><br><br>
         </div>
@@ -173,6 +180,7 @@
       </td>
     </tr>
   </table>
+
 </div>
   <footer>
     <br />

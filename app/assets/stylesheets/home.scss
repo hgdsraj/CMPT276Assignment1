@@ -20,7 +20,7 @@ Y                  Y
 
 
 body {
-    font:normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font:normal  "Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 1.5em;
     margin: 0;
     background-color: #a6192e;
@@ -49,14 +49,14 @@ td a {
     width: 100%;
     height: 100%;
 }
-input[type=submit]{
+input[type=button]{
     color: #fff;
     background-color: #a6192e;
     font-size: 1em;
     font-family: 'Arimo', sans-serif;
     text-align: center;
     vertical-align: middle;
-    height: 2em;
+    height: 3em;
     width: 8em;
 }
 
