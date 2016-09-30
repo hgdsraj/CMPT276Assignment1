@@ -33,7 +33,6 @@
         <br>
         <h1>
           Grade Calculator
-
         </h1>
         <div class="subDiv">
           <div class="innerDiv" >
@@ -144,6 +143,7 @@
               <div class="left">
               <input type="button" onclick="addRow();" name="add" value="ADD ROW">
               <input type="button" onclick="rmRow();" name="rm" value="REMOVE ROW">
+              <input type="button" onclick="wow();" name="wow" value="WOW">
             </div> <br><br>
             <h3>
                Result:
@@ -153,7 +153,11 @@
                 <p id="results">
                   <br>
                 </p>
-              </div>
+                <div class= "toad" id="toad">
+                    <%= image_tag("toad.gif", :alt => "RainbowToad") %>
+                </div>
+
+            </div>
               <div class = "right">
                 <p>
                 <input type="button" onclick="calculateWeighted();" name="weighted" value="WEIGHTED">
