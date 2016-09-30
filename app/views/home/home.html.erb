@@ -140,6 +140,7 @@
               <h3>
 
               </h3>
+              <br>
               <div class="left">
               <input type="button" onclick="addRow();" name="add" value="ADD ROW">
               <input type="button" onclick="rmRow();" name="rm" value="REMOVE ROW">
@@ -153,15 +154,20 @@
                 <p id="results">
                   <br>
                 </p>
+
+            </div>
+            <br>
+            <div class = "left">
                 <div class= "toad" id="toad">
                     <%= image_tag("toad.gif", :alt => "RainbowToad") %>
                 </div>
-
             </div>
               <div class = "right">
                 <p>
                 <input type="button" onclick="calculateWeighted();" name="weighted" value="WEIGHTED">
                 <input type="button" onclick="calculateMean();" name="mean" value="MEAN">
+
+                <input type="button" onclick="getGPA();" name="gpa" value="GPA">
                 </p>
               </div>
           </div>

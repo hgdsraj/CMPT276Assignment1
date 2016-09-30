@@ -6,6 +6,66 @@ function init() {
     pos = rows.length-1;
 
 }
+function getGPA()
+{
+    var weights = document.getElementsByName("weight");
+    var paragraph = document.getElementById("results");
+    var denominators = document.getElementsByName("den");
+    var percentages = document.getElementsByName("percent")
+    var numerators = document.getElementsByName("num");
+    var len = denominators.length;
+    for(i = 0; i < len; i++)
+    {
+        if(denominators[i].value == 0  )
+        {
+          alert("GRADE CANNOT BE OUT OF 0 !");
+          return;
+        }
+        if(Number(numerators[i].value) != numerators[i].value || Number(denominators[i].value) != denominators[i].value || Number(weights[i].value) != weights[i].value)
+        {
+          alert("ONLY FLOATING POINT VALUES ALLOWED!");
+          return;
+        }
+    }
+    var percentages_values = [];
+    var totalGrade = 0;
+    var totalWeight = 0;
+    var badWeight = 0;
+    for(i = 0; i < len; i++)
+    {
+        if(weights[i].value <= 0)
+        {
+          badWeight = 1;
+          break;
+
+        }
+    }
+    for(i = 0; i < len; i++)
+    {
+        percentages_values[i] = numerators[i].value/denominators[i].value;
+        if(badWeight == 0)
+        {
+            totalGrade += percentages_values[i]*weights[i].value;
+            totalWeight += Number(weights[i].value);
+        }
+        else {
+            totalGrade += percentages_values[i];
+        }
+        percentages[i].innerHTML = ((Math.round(percentages_values[i]*100*100)) / 100).toFixed(2) + "%";
+    }
+    var weighted = (Math.round((totalGrade/len)*10000)/100).toFixed(2);
+
+    if(badWeight == 0)
+    {
+        return;
+        weighted = totalGrade/totalWeight;
+        var percentWeighted = (Math.round(weighted*10000)/100).toFixed(2);
+        paragraph.innerHTML = "Your GPA is : " + (percentWeighted*4.33)/100 + "/4.33" + "<br> or " + percentWeighted + "%";
+    }
+    else {
+        paragraph.innerHTML = "Your GPA is : " + (weighted*4.33)/100 + "/4.33" + "<br> or " + weighted + "%";
+    }
+}
 
 function calculateMean() {
     var paragraph = document.getElementById("results");
@@ -133,7 +193,7 @@ function wow()
     }
     toad.style.visibility= "visible";
 
-    calculateMean();    
+    calculateMean();
 
 }
 window.onload = init;
